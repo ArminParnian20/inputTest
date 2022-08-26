@@ -16,25 +16,25 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
+    gap:2rem
+}
+.container div{
+    width:100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 input{
-    width:0;
-    height:0;
     overflow: hidden;
     z-index:-1;
+    font-size: 25px;
 }
 label{
-    padding:30px;
-    font-size:3em;
+    padding:10px;
+    font-size:2em;
     background:orange;
     margin:1rem;
     cursor: pointer;
     border-radius: 50%;
 }
-input:user-valid ~ label{
-    background: green;
-}
-div{
-    color:#333;
-}
-  
