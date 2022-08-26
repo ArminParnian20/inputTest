@@ -11,8 +11,28 @@ body{
     align-items: center;
     justify-content: center;
 }
+.container{
+    width:100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 input{
-  margin-top: 1rem;
+    width:0;
+    height:0;
+    overflow: hidden;
+    z-index:-1;
+}
+label{
+    padding:50px;
+    font-size:4em;
+    background:orange;
+    margin:1rem;
+    cursor: pointer;
+    border-radius: 50%;
+}
+input:user-valid ~ label{
+    background: green;
 }
 div{
     color:#333;
