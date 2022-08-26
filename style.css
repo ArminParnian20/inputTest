@@ -24,8 +24,8 @@ input{
     z-index:-1;
 }
 label{
-    padding:50px;
-    font-size:4em;
+    padding:30px;
+    font-size:3em;
     background:orange;
     margin:1rem;
     cursor: pointer;
